@@ -1,0 +1,49 @@
+
+btn{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+#buttons {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#choice {
+    display: flex;
+    justify-content:space-between;
+    align-items: space-between;
+    gap: 50px;
+
+}
+
+div.slider {
+    display: flex;
+    flex: auto;
+}
